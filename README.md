@@ -18,7 +18,10 @@
 6. 标题任拟，内容按照提示，如：
 
 ```
-今天是 {{date.DATA}} 天气{{weather.DATA}} 最高气温{{high.DATA}} °C，最低气温{{low.DATA}} °C 风力{{windClass.DATA}} ，风向 {{windDir.DATA}} 今天是在一起第 {{anniversary.DATA}} 天
+今天是 {{date.DATA}} 天气{{weather.DATA}} 
+最高气温{{high.DATA}} °C，最低气温{{low.DATA}} °C 
+风力{{windClass.DATA}} ，风向 {{windDir.DATA}} 
+今天是在一起第 {{anniversary.DATA}} 天
 ```
 每个变量用 `{{}}` 括起来并在后面加 `.DATA`
 
