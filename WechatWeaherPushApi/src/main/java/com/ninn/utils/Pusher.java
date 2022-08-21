@@ -11,11 +11,6 @@ import org.springframework.beans.factory.annotation.Value;
 
 public class Pusher {
 
-    @Value("${diy.appId}")
-    private static String APP_ID;
-    @Value("${diy.appSecret}")
-    private static String APP_SECRET;
-
     public static void main(String[] args) {
         push();
     }
